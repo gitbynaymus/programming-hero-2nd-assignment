@@ -26,6 +26,13 @@
 }
 
 /* navbar styles */
+.hide{
+    display: none;
+}
+.hamburger{
+    height: 30px;
+    width: 30px;
+}
 .nav-logo-container{
     gap: 10px;
 }
@@ -80,10 +87,12 @@ color: #05D4DF;
     font-family: Quicksand;
 }
 
-
   /* shared styles */
   .display-flex{
     display: flex;
+}
+.border-radius-18{
+    border-radius: 18px;
 }
   .btn-primary{
     background-color: #FEA301;
@@ -100,4 +109,104 @@ color: #05D4DF;
   }
   .btn-black{
     background-color: black;
+  }
+
+  /* Curriculum styles */
+.curriculum{
+    margin-top: 3.75rem;
+    background-image: url(assets/bg.png);
+    flex-direction: column;
+    gap: 80px;
+}
+.curriculum-heading{
+    font-weight: 700;
+    font-size: 2.8rem;
+    text-align: center;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #202020;
+}
+.card-subtitle{
+    color: #808080;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: Raleway;
+    text-align: center;
+}
+.cards{
+    gap: 30px;
+}
+.card{
+    padding-top: 52px;
+    padding-bottom: 52px;
+    justify-items: center;
+}
+.card-1{
+    background-color: #DEF5FF;
+    background: linear-gradient(rgb(222, 245, 255), rgba(222, 245, 255, 0));
+    border: 1px solid #def5ff;
+}
+.card-2{
+    background-color: #FFF4DC;
+    background: linear-gradient(rgb(255, 244, 220), rgba(255, 244, 220, 0));
+    border: 1px solid #fff4dc;
+}
+.card-3{
+    background-color: #F2E8FF;
+    background: linear-gradient(rgb(238, 225, 255), rgba(238, 225, 255, 0));
+    border: 1px solid #f2e8ff;
+}
+.read-more{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+.circles{
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #FEA301;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}   
+.sign{
+    height: 24px;
+    width: 24px;
+}
+
+  /* media query */
+  @media screen and (max-width:576px) {
+    .hero-kids{
+        max-width:100%;
+        margin: 0 auto;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        justify-items: center;
+        text-align: center;
+    }
+    #school{
+        display: none;
+    }
+    .nav-items-links{
+        display: none;
+    }
+    .nav .btn-primary{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    
   }
