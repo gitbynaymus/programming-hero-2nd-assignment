@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.quicksand-font{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+  }
+  .raleway-font{
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+  }
+
+  /* main */
+.main{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.header{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+/* navbar styles */
+.nav-logo-container{
+    gap: 10px;
+}
+#school{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.nav{
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+.list-items{
+    gap: 32px;
+}
+.list-styles,.list-style{
+    list-style: none;
+    text-decoration: none;
+}
+.list-style{
+    font-weight: 500;
+    font-size: 20px;
+}
+.home-bold{
+    font-weight: bold;
+}
+.color-orange{
+    color: #FEA301;
+}
+.color-sky-blue{
+    color: skyblue;
+}
+.color-facilities{
+color: #05D4DF;
+}
+.color-admission{
+    color: #5D58EF;
+}
+
+/* baner styles */
+.banner-container{
+    justify-content: space-between;
+    gap: 50px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+.banner-description{
+    font-weight:100;
+    font-size: 1.25rem;
+    font-family: Quicksand;
+}
+
+
+  /* shared styles */
+  .display-flex{
+    display: flex;
+}
+  .btn-primary{
+    background-color: #FEA301;
+    border: none;
+    width: 195px;
+    height: 50px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .btn-black{
+    background-color: black;
+  }
