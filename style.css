@@ -112,9 +112,11 @@ color: #05D4DF;
   }
 
   /* Curriculum styles */
+  .bg{
+    background-image: url(assets/bg.png);
+  }
 .curriculum{
     margin-top: 3.75rem;
-    background-image: url(assets/bg.png);
     flex-direction: column;
     gap: 80px;
 }
@@ -192,6 +194,9 @@ color: #05D4DF;
     .banner-container{
         flex-direction: column-reverse;
     }
+    .cards{
+        flex-direction: column;
+    }
     .banner-content{
         justify-items: center;
         text-align: center;
@@ -199,7 +204,7 @@ color: #05D4DF;
     #school{
         display: none;
     }
-    .nav-items-links{
+    .nav-items-links,.circles{
         display: none;
     }
     .nav .btn-primary{
