@@ -26,6 +26,7 @@
 }
 a{
     text-decoration: none;
+    
 }
 
 /* navbar styles */
@@ -133,6 +134,7 @@ color: #05D4DF;
     align-items: center;
     font-weight: 500;
     font-size: 20px;
+    margin-bottom: 100px;
   }
 
   /* Curriculum styles */
@@ -303,24 +305,60 @@ color: #05D4DF;
     font-size: 1rem;
     padding: 23px 50px 33px 37px;
   }
-/* .stories-card-container{
+
+  /* footer */
+  footer{
+    background-color: #01ACFD;
+    color: white;
+    margin-top: 100px;
+  }
+
+.footer-container{
+    padding: 120px 220px 150px 100px;
     display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, auto);
-    justify-content: center;
-    width: calc(100% - 2rem);
-    margin: 8rem 0;
-}
-.story-collage{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-}
-.story-1{
-    /* grid-row: 1/3;
-    grid-column: 1/3;
-    padding-right: 18px; */
+    grid-template-columns: repeat(2,1fr);
+  }
+  .footer-description{
+    padding-right: 150px;
+    font-family: Quicksand;
+    font-size: 1.25rem;
+  }
+  .footer-midddle{
+    align-items: left;
+  }
+  .footer-content2{
+    justify-content: space-between;
+  }
+   .footer-logo-title{
+    align-items: center;
+   }
+  .lists{
+    list-style: none;
+  }
+  .list{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  .keep{
+    font-weight: bold;
+    font-size: 26px;
+  }
+  .about-school{
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .footer-heading{
+    font-weight: bold;
+    font-size: 42px;
+  }
+  .social{
+    gap: 5px;
+  }
+  .footer{
+    margin-top: 0;
+  }
     
    
 
@@ -333,7 +371,7 @@ color: #05D4DF;
     .banner-container{
         flex-direction: column-reverse;
     }
-    .cards{
+    .cards,.footer-content2{
         flex-direction: column;
     }
     .banner-content{
@@ -349,11 +387,20 @@ color: #05D4DF;
     .nav .btn-primary{
         display: none;
     }
-    .hamburger{
+    .hamburger,.line{
         display: block;
     }
     .story-collage{
         grid-template-columns: repeat(2, 1fr);
     }
-    
+   
+    .footer-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 6rem 1.25rem 5rem 1.25rem;
+        gap: 3.2rem;
+    }
+    .footer-description,.keep,.footer-logo-title,.about-school,.footer-content2{
+        padding: 0;
+        width: 100%;
+    }
   }
