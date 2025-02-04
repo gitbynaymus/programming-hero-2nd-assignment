@@ -392,6 +392,11 @@ color: #05D4DF;
     }
     .story-collage{
         grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+    .story-content-title{
+        padding: 5px;
+        font-size: 12px;
     }
    
     .footer-container {
@@ -403,4 +408,11 @@ color: #05D4DF;
         padding: 0;
         width: 100%;
     }
+    .badge-secondary,.badge-intermidiate{
+        padding: 10px;
+        font-size: 10px
+    }
+    /* .badge{
+        font-weight: 400;
+    } */
   }
