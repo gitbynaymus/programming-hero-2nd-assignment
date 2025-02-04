@@ -343,7 +343,7 @@ color: #05D4DF;
     #school{
         display: none;
     }
-    .nav-items-links,.circles{
+    .nav-items-links,.circles,.story-1{
         display: none;
     }
     .nav .btn-primary{
@@ -351,6 +351,9 @@ color: #05D4DF;
     }
     .hamburger{
         display: block;
+    }
+    .story-collage{
+        grid-template-columns: repeat(2, 1fr);
     }
     
   }
